@@ -1,0 +1,98 @@
+/*CSS Reset*/
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,form {
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  color: #000;
+  font: 16px/2 "黑体";
+  
+}
+
+img {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*清浮动*/
+.clearfix:before,
+.clearfix:after { 
+  content: ""; 
+  display: table;
+} 
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #eee;
+  border: 1px solid #999;
+  position: relative;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.container .brand {
+  width: 200px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  float: left;
+  box-sizing: border-box;
+}
+
+.container .brand .logo {
+  width: 80px;
+  height: 80px;
+  background: url('') #eee center;
+  display: inline-block;
+  
+}
+
+.container .brand .name {
+  font-size: 20px;
+}
+
+
+.container .member {
+  width: 120px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  float: right;
+  box-sizing: border-box;
+}
+
+.container .member ul {
+  list-style: none;
+}
+
+.container .member ul li{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background: url('') #eee center;
+/*  border: 1px solid #eee;*/
+
+}
+
+.container .intro {
+  margin-left: 220px;
+  margin-right: 140px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+
+}
