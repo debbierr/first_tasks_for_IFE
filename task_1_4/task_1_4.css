@@ -1,0 +1,60 @@
+/*CSS Reset*/
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,form {
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  color: #000;
+  font: 16px/2 "黑体";
+  
+}
+
+img {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*清浮动*/
+.clearfix:before,
+.clearfix:after { 
+  content: ""; 
+  display: table;
+} 
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  background-color: #ccc;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin:-100px 0 0 -200px;
+}
+.container .leftCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 0 0 100% 0;
+  background-color: #fc0;
+}
+.container .rightCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100% 0 0 0;
+  background-color: #fc0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: 50px 0 0 150px;
+}
