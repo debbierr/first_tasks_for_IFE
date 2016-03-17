@@ -1,0 +1,255 @@
+/*CSS Reset*/
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,form {
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  color: #000;
+  font: 16px/2 "黑体";
+}
+
+img {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*清浮动*/
+.clearfix:before,
+.clearfix:after { 
+  content: ""; 
+  display: table;
+} 
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+
+
+/*全局样式*/
+body{
+  background-color: #ddd;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 30px 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 2px 0 #333;
+}
+
+section h1 {
+  font-size: 26px;
+  line-height: 2em;
+}
+
+section h2 {
+  font-size: 20px;
+  line-height: 2em;
+  color: #555;
+}
+
+section h6 {
+  font-size: 14px;
+  line-height: 2em;
+}
+
+section span {
+  font-size: 14px;
+  line-height: 2em;
+  color: #666;
+}
+
+section p.indent {
+  text-indent: 2em;
+}
+
+section ul {
+  list-style-position: inside;
+}
+
+section ol {
+  list-style-position: inside;
+}
+
+section table {
+  border: 1px solid #ccc;
+  text-align: left;
+  width: 100%;
+  border-collapse:collapse;
+}
+
+section table tr th {
+  padding-left: 5px;
+  color: #fff;
+  background-color: #000;
+}
+
+section table tr td {
+  padding-left: 5px;
+}
+
+section table tr.lasttr td {
+  font-weight: bold;
+  background-color: #ccc;
+}
+
+section h2.leftItem {
+  color: #000;
+  border-left:4px solid #ccc;
+  padding-left: 10px;
+}
+
+section form {
+  text-align: center;
+}
+
+.image {
+  width: 200px;
+  border: 1px solid #666;
+  box-shadow: 0 1px #666;
+  text-align: center;
+  line-height: 2em;
+  padding: 10px;
+  margin: 20px 40px;
+}
+
+.image img {
+  display: inline;
+  width: 180px;
+}
+
+footer {
+  height: 80px;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  line-height: 3em;
+}
+
+/*类样式*/
+.navigation {
+  width: 100%;
+  height: 60px;
+  background-color: #222;
+  line-height: 60px;
+  position: relative;
+}
+
+.navigation .logo {
+  margin: 10px 0 10px 30px;
+  float: left;
+}
+
+.navigation .logo img {
+  display: inline;
+  height: 40px;
+}
+
+.navigation .menu {
+  display: inline-block;
+  float: right;
+}
+.navigation .menu li {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.navigation .menu li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navigation .menu li.selected a {
+  color: #888;
+  font-weight: bold;
+}
+
+
+.formGroup ul {  
+  width: 100%;
+  text-align: left;
+  vertical-align: baseline;
+  list-style: none;
+}
+
+.formGroup ul li {
+  vertical-align: top;
+  display: inline-block;
+}
+
+.formGroup ul li input,
+.formGroup ul li select {
+  font:14px/1.5 "黑体";
+  display: inline-block;
+}
+
+.formGroup ul li textarea {
+  font:18px/1.5 "黑体";
+  display: inline-block;
+}
+
+.formGroup ul li input[type="text"],
+.formGroup ul li input[type="password"], {
+  width: 180px;
+  height: 25px;
+}
+
+.formGroup ul li input[type="radio"],
+.formGroup ul li input[type="checkbox"] {
+  margin-right: 2px;
+}
+
+.formGroup ul input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  background-color: #2B4CE2;
+  border:1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font: 18px/1.5 "黑体";
+  text-align: center;
+
+}
+
+.formGroup ul li textarea{
+  width: 200px;
+  height: 100px;
+}
+
+.formGroup ul li.label {
+  width: 30%;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.formGroup ul li.msg {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin: 30px 20px;
+
+}
+
+.container .content {
+  margin-right: 470px;
+}
+
+.container .sidebar {
+  width: 450px;
+  float: right;
+
+}
