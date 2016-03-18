@@ -113,14 +113,18 @@ section form {
   text-align: center;
 }
 
+section img {
+  width: 40%;
+}
+
 .image {
   width: 200px;
-  border: 1px solid #666;
-  box-shadow: 0 1px #666;
+  border: 1px solid #CCC;
   text-align: center;
   line-height: 2em;
   padding: 10px;
   margin: 20px 40px;
+  display: inline-block;
 }
 
 .image img {
