@@ -1,0 +1,42 @@
+/*CSS Reset*/
+body,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,p,input,select,textarea,form {
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  color: #000;
+  font: 16px/2 "黑体";
+}
+
+img {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/*清浮动*/
+.clearfix:before,
+.clearfix:after { 
+  content: ""; 
+  display: table;
+} 
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.container {
+  margin: 10px;
+  padding:10px;
+}
+
+.top {
+  
+}
